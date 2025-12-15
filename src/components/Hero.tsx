@@ -1,9 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import ShieldIcon from './ShieldIcon';
-import { Download, Github } from 'lucide-react';
+import { Download, Github, Loader2 } from 'lucide-react';
+import JSZip from 'jszip';
+import { extensionFiles, generateIconSvg, svgToPng } from '@/utils/extensionFiles';
+import { toast } from 'sonner';
 
 const Hero: React.FC = () => {
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  const handleDownload = async () => {
+    setIsDownloading(true);
+    try {
+      const zip = new JSZip();
+      
+      // Add text files
+      Object.entries(extensionFiles).forEach(([filename, content]) => {
+        zip.file(filename, content);
+      });
+      
+      // Generate and add icons
+      const iconSizes = [16, 48, 128];
+      const iconsFolder = zip.folder('icons');
+      
+      for (const size of iconSizes) {
+        const svgDataUrl = generateIconSvg(size);
+        const pngBlob = await svgToPng(svgDataUrl, size);
+        iconsFolder?.file(`icon${size}.png`, pngBlob);
+      }
+      
+      // Generate ZIP and download
+      const blob = await zip.generateAsync({ type: 'blob' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'kataad-extension.zip';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      
+      toast.success('Extension downloaded! Follow the installation steps below.');
+    } catch (error) {
+      console.error('Download failed:', error);
+      toast.error('Download failed. Please try again.');
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background grid */}
@@ -38,9 +83,19 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" className="group">
-                <Download className="w-5 h-5 group-hover:animate-bounce" />
-                Download Extension
+              <Button 
+                variant="hero" 
+                size="xl" 
+                className="group"
+                onClick={handleDownload}
+                disabled={isDownloading}
+              >
+                {isDownloading ? (
+                  <Loader2 className="w-5 h-5 animate-spin" />
+                ) : (
+                  <Download className="w-5 h-5 group-hover:animate-bounce" />
+                )}
+                {isDownloading ? 'Preparing...' : 'Download Extension'}
               </Button>
               <Button variant="glass" size="xl">
                 <Github className="w-5 h-5" />
