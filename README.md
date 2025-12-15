@@ -126,14 +126,7 @@ Planned and optional upgrades:
 ---
 
 ## 👤 Author
-
 **Pantane**
-📧 Email: [pantane254@gmail.com](mailto:pantane254@gmail.com)
-💬 WhatsApp: +254 740 312 402
-🐙 GitHub: [https://github.com/pantane1](https://github.com/pantane1)
-
-## 📬 Get in Touch
-
 [![Email](https://img.icons8.com/ios-filled/50/ffffff/email.png)](mailto:pantane254@gmail.com)
 [![WhatsApp](https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png)](https://wa.me/254740312402)
 
