@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
+import PopupDemo from '@/components/PopupDemo';
 import Installation from '@/components/Installation';
 import ExtensionFiles from '@/components/ExtensionFiles';
 import Footer from '@/components/Footer';
@@ -20,6 +21,9 @@ const Index: React.FC = () => {
         <Hero />
         <section id="features">
           <Features />
+        </section>
+        <section id="demo">
+          <PopupDemo />
         </section>
         <section id="installation">
           <Installation />
