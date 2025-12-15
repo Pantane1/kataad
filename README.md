@@ -132,14 +132,17 @@ Planned and optional upgrades:
 💬 WhatsApp: +254 740 312 402
 🐙 GitHub: [https://github.com/pantane1](https://github.com/pantane1)
 
-<a href="mailto:pantane254@gmail.com" class="contact-link">
-  <img src="icons/email.png" />
-  <span>Email</span>
+<a href="mailto:pantane254@gmail.com" class="icon">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+    <path d="M4 4h16v16H4z" fill="none"/>
+    <path d="M20 4H4v16h16V4zm-2 2v.01L12 13 6 6.01V6h12z"/>
+  </svg>
 </a>
 
-<a href="https://wa.me/254740312402" target="_blank" class="contact-link">
-  <img src="icons/whatsapp.png" />
-  <span>WhatsApp</span>
+<a href="https://wa.me/254740312402" target="_blank" class="icon">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+    <path d="M16.5 13c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.2-.8.9-1 .9-.2 0-.4-.1-.7-.2-1.2-.5-2-1.3-2.5-2-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.3 0-.5-.1-.1-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.2 5 4.5.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3z"/>
+  </svg>
 </a>
 
 ---
