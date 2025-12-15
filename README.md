@@ -1,4 +1,4 @@
-[HOME](kataAd-home.png)
+[HOME](https://github.com/Pantane1/kataad/blob/main/kataAd-home.png)
 # KataAd – Lightweight Ad Blocker Extension
 
 **KataAd** is a fast, privacy‑first ad blocker built as a Chrome (Manifest V3) extension. It blocks intrusive ads, trackers, and pop‑ups using Chrome’s native `declarativeNetRequest` engine for maximum performance and minimum resource usage.
