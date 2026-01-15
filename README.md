@@ -80,7 +80,7 @@ KataAd is built with privacy as a first‑class principle:
 ---
 
 ## 🛠 Installation (Developer Mode)
-![INSTALLATION](https://github.com/Pantane1/kataad/tree/main/public)
+![INSTALLATION](public/kataAd-installation.png)
 1. Clone or download this repository
 2. Open Chrome and navigate to:
 
@@ -124,16 +124,7 @@ Planned and optional upgrades:
 * Firefox version (Manifest v2 compatible)
 * Usage statistics (local‑only)
 
----
-
-## 👤 Author
-**Pantane**
-[![Email](https://img.icons8.com/ios-filled/50/ffffff/email.png)](mailto:pantane254@gmail.com)
-[![WhatsApp](https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png)](https://wa.me/254740312402)
-
-
----
-
+ 
 ## 📄 License
 
 MIT License. Free to use, modify, and distribute.
@@ -142,6 +133,7 @@ MIT License. Free to use, modify, and distribute.
 
 Built with focus, simplicity, and control.
 
+> incase of any issues,feel free to [contact us](https://wamuhu-martin.vercel.app/#contact)
 
 **_All Hail to Pantane_**
 
