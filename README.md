@@ -41,7 +41,7 @@ kataad/
 ---
 
 ## 🖥 Popup Interface
-![ONLINE](https://github.com/Pantane1/kataad/blob/main/kataAd-online.png)
+![ONLINE](public/kataAd-online.png)
 The popup provides a simple control panel:
 
 * Extension name and status
