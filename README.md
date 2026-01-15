@@ -8,7 +8,7 @@
 ---
 
 ## ✨ Key Features
-![FEATURES](https://github.com/Pantane1/kataad/blob/main/kataAd-features.png)
+![FEATURES](https://github.com/Pantane1/kataad/blob/main/public/kataAd-features.png)
 * 🚫 Blocks common ads (Google Ads, Facebook Ads, DoubleClick, Taboola, Outbrain)
 * 🕵️ Blocks trackers, pixels, and tracking scripts
 * 🧠 Uses Chrome’s native MV3 `declarativeNetRequest` (no background interception)
