@@ -21,7 +21,7 @@
 ---
 
 ## 🧩 Extension Structure
-![EXTENSION](https://github.com/Pantane1/kataad/blob/main/public/kataAd-files.png)
+![EXTENSION](public/kataAd-files.png)
 ```
 kataad/
 ├── manifest.json
