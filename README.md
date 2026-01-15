@@ -80,7 +80,7 @@ KataAd is built with privacy as a first‑class principle:
 ---
 
 ## 🛠 Installation (Developer Mode)
-![INSTALLATION](https://github.com/Pantane1/kataad/blob/main/kataAd-installation.png)
+![INSTALLATION](https://github.com/Pantane1/kataad/tree/main/public)
 1. Clone or download this repository
 2. Open Chrome and navigate to:
 
