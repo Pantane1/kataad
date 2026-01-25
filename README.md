@@ -133,7 +133,7 @@ MIT License. Free to use, modify, and distribute.
 
 Built with focus, simplicity, and control.
 
-> incase of any issues,feel free to [contact us](https://wamuhu-martin.vercel.app/#contact)
+> incase of any issues,feel free to [contact us](https://pantane1.github.io/nf/)
 
 **_All Hail to Pantane_**
 
