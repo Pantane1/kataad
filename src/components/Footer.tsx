@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             >
               <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
               <span>Get in Touch</span>
-            </Link>
+            </Link to "https://pantane1.github.io/nf/">
           </div>
           
           <div className="text-center md:text-right">
